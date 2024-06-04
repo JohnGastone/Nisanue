@@ -14,7 +14,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-      child: Center(),
+      child: Center(
+        child: (Column(
+          children: [
+            Text(
+              "Ukiwa na info NISANUE",
+            )
+          ],
+        )),
+      ),
     ));
   }
 }
