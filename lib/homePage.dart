@@ -18,6 +18,9 @@ class _HomePageState extends State<HomePage> {
       child: Center(
         child: (Column(
           children: [
+            SizedBox(
+              height: 80,
+            ),
             Text("Ukiwa na info NISANUE",
                 style: GoogleFonts.sansita(fontSize: 30))
           ],
