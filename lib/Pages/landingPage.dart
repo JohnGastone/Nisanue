@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sosho/Pages/homePage.dart';
 
 class Landingpage extends StatefulWidget {
   const Landingpage({super.key});
@@ -105,19 +106,25 @@ class _LandingpageState extends State<Landingpage> {
               SizedBox(
                 height: 30,
               ),
-              Container(
-                width: 340,
-                height: 50,
-                decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 36, 34, 34),
-                    borderRadius: BorderRadius.circular(20)),
-                child: Center(
-                  child: Text(
-                    "LOGIN",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 20, color: Colors.white),
+              InkWell(
+                child: Container(
+                  width: 340,
+                  height: 50,
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 36, 34, 34),
+                      borderRadius: BorderRadius.circular(20)),
+                  child: Center(
+                    child: Text(
+                      "LOGIN",
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, color: Colors.white),
+                    ),
                   ),
                 ),
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => HomePage()));
+                },
               ),
               SizedBox(
                 height: 5,
