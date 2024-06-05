@@ -58,9 +58,75 @@ class _HomePageState extends State<HomePage> {
                   height: 20,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 10),
+                  padding: const EdgeInsets.only(left: 20),
                   child: Row(
                     children: [
+                      Column(
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.grey,
+                              child: Icon(
+                                CupertinoIcons.plus,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            "Add",
+                            style: GoogleFonts.montserrat(fontSize: 15),
+                          )
+                        ],
+                      ),
+                      SizedBox(
+                        width: 14,
+                      ),
+                      Column(
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.grey,
+                              child: Icon(
+                                CupertinoIcons.plus,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            "Add",
+                            style: GoogleFonts.montserrat(fontSize: 15),
+                          )
+                        ],
+                      ),
+                      SizedBox(
+                        width: 14,
+                      ),
+                      Column(
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.grey,
+                              child: Icon(
+                                CupertinoIcons.plus,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            "Add",
+                            style: GoogleFonts.montserrat(fontSize: 15),
+                          )
+                        ],
+                      ),
+                      SizedBox(
+                        width: 14,
+                      ),
                       Column(
                         children: [
                           SizedBox(
