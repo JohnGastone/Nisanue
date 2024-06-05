@@ -243,6 +243,288 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
+                SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  height: 350,
+                  width: 300,
+                  decoration: BoxDecoration(
+                      color: Colors.white24,
+                      borderRadius: BorderRadius.circular(18)),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Mary R. Lehmann",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  "Bristo Cafe",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.grey),
+                                )
+                              ],
+                            ),
+                            SizedBox(width: 75),
+                            Container(
+                              height: 60,
+                              width: 40,
+                              decoration: BoxDecoration(
+                                  color: Colors.white24,
+                                  borderRadius: BorderRadius.circular(15),
+                                  border: Border.all(width: 1)),
+                              child: Icon(CupertinoIcons.dot_radiowaves_right),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        width: 270,
+                        height: 200,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            image: DecorationImage(
+                                image: AssetImage("./assets/image.png"),
+                                fit: BoxFit.cover)),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                          children: [
+                            Row(
+                              children: [
+                                Icon(
+                                  CupertinoIcons.heart_fill,
+                                  color: Colors.red,
+                                ),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(Icons.message_sharp),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(CupertinoIcons.share),
+                              ],
+                            ),
+                            SizedBox(
+                              width: 154,
+                            ),
+                            Icon(CupertinoIcons.bookmark)
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  height: 350,
+                  width: 300,
+                  decoration: BoxDecoration(
+                      color: Colors.white24,
+                      borderRadius: BorderRadius.circular(18)),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Mary R. Lehmann",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  "Bristo Cafe",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.grey),
+                                )
+                              ],
+                            ),
+                            SizedBox(width: 75),
+                            Container(
+                              height: 60,
+                              width: 40,
+                              decoration: BoxDecoration(
+                                  color: Colors.white24,
+                                  borderRadius: BorderRadius.circular(15),
+                                  border: Border.all(width: 1)),
+                              child: Icon(CupertinoIcons.dot_radiowaves_right),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        width: 270,
+                        height: 200,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            image: DecorationImage(
+                                image: AssetImage("./assets/image.png"),
+                                fit: BoxFit.cover)),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                          children: [
+                            Row(
+                              children: [
+                                Icon(
+                                  CupertinoIcons.heart_fill,
+                                  color: Colors.red,
+                                ),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(Icons.message_sharp),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(CupertinoIcons.share),
+                              ],
+                            ),
+                            SizedBox(
+                              width: 154,
+                            ),
+                            Icon(CupertinoIcons.bookmark)
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  height: 350,
+                  width: 300,
+                  decoration: BoxDecoration(
+                      color: Colors.white24,
+                      borderRadius: BorderRadius.circular(18)),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Mary R. Lehmann",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  "Bristo Cafe",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.grey),
+                                )
+                              ],
+                            ),
+                            SizedBox(width: 75),
+                            Container(
+                              height: 60,
+                              width: 40,
+                              decoration: BoxDecoration(
+                                  color: Colors.white24,
+                                  borderRadius: BorderRadius.circular(15),
+                                  border: Border.all(width: 1)),
+                              child: Icon(CupertinoIcons.dot_radiowaves_right),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        width: 270,
+                        height: 200,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            image: DecorationImage(
+                                image: AssetImage("./assets/image.png"),
+                                fit: BoxFit.cover)),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                          children: [
+                            Row(
+                              children: [
+                                Icon(
+                                  CupertinoIcons.heart_fill,
+                                  color: Colors.red,
+                                ),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(Icons.message_sharp),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(CupertinoIcons.share),
+                              ],
+                            ),
+                            SizedBox(
+                              width: 154,
+                            ),
+                            Icon(CupertinoIcons.bookmark)
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             )),
           ),
