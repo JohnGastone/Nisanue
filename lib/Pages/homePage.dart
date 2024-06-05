@@ -216,17 +216,30 @@ class _HomePageState extends State<HomePage> {
                       Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-                            Icon(
-                              CupertinoIcons.heart_fill,
-                              color: Colors.red,
+                            Row(
+                              children: [
+                                Icon(
+                                  CupertinoIcons.heart_fill,
+                                  color: Colors.red,
+                                ),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(Icons.message_sharp),
+                                SizedBox(
+                                  width: 11,
+                                ),
+                                Icon(CupertinoIcons.share),
+                              ],
                             ),
-                            Icon(Icons.message_sharp),
-                            Icon(CupertinoIcons.mail),
+                            SizedBox(
+                              width: 154,
+                            ),
+                            Icon(CupertinoIcons.bookmark)
                           ],
                         ),
-                      )
+                      ),
                     ],
                   ),
                 ),
