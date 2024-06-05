@@ -61,16 +61,24 @@ class _HomePageState extends State<HomePage> {
                   padding: const EdgeInsets.only(left: 10),
                   child: Row(
                     children: [
-                      Container(
-                        height: 70,
-                        width: 70,
-                        child: CircleAvatar(
-                          backgroundColor: Colors.grey,
-                          child: Icon(
-                            CupertinoIcons.plus,
-                            color: Colors.white,
+                      Column(
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.grey,
+                              child: Icon(
+                                CupertinoIcons.plus,
+                                color: Colors.white,
+                              ),
+                            ),
                           ),
-                        ),
+                          Text(
+                            "Add",
+                            style: GoogleFonts.montserrat(fontSize: 15),
+                          )
+                        ],
                       ),
                     ],
                   ),
