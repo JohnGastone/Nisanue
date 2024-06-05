@@ -35,7 +35,12 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     children: [
                       Icon(CupertinoIcons.heart),
-                      Icon(CupertinoIcons.search)
+                      SizedBox(
+                        width: 5,
+                      ),
+                      CircleAvatar(
+                          backgroundColor: Colors.black12,
+                          child: Icon(CupertinoIcons.search))
                     ],
                   )
                 ],
