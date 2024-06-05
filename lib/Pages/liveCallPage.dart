@@ -16,7 +16,15 @@ class _LiveCallPageState extends State<LiveCallPage> {
       body: SingleChildScrollView(
         child: Center(
           child: Column(
-            children: [],
+            children: [
+              Container(
+                height: 1200,
+                width: double.maxFinite,
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("./assets/image.png"))),
+              )
+            ],
           ),
         ),
       ),
