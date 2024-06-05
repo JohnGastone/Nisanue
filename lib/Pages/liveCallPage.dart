@@ -58,20 +58,26 @@ class _LiveCallPageState extends State<LiveCallPage> {
               SizedBox(
                 height: 230,
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 250),
-                    child: Container(
-                      height: 200,
-                      width: 60,
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(20)),
-                    ),
-                  )
-                ],
+              Padding(
+                padding: const EdgeInsets.only(left: 250),
+                child: Container(
+                  height: 200,
+                  width: 60,
+                  decoration: BoxDecoration(
+                      color: Colors.white24,
+                      borderRadius: BorderRadius.circular(20)),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          CupertinoIcons.heart_fill,
+                          color: Colors.redAccent,
+                        ),
+                      )
+                    ],
+                  ),
+                ),
               )
             ],
           ),
