@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                   height: 30,
                 ),
                 Container(
-                  height: 200,
+                  height: 300,
                   width: 300,
                   decoration: BoxDecoration(
                       color: Colors.white24,
@@ -203,6 +203,15 @@ class _HomePageState extends State<HomePage> {
                             )
                           ],
                         ),
+                      ),
+                      Container(
+                        width: 270,
+                        height: 200,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            image: DecorationImage(
+                                image: AssetImage("./assets/image.png"),
+                                fit: BoxFit.cover)),
                       )
                     ],
                   ),
