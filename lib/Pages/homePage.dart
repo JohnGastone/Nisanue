@@ -165,7 +165,7 @@ class _HomePageState extends State<HomePage> {
                         child: Row(
                           children: [
                             CircleAvatar(
-                              child: Image.asset("./assets/google.png"),
+                              child: Image.asset("./assets/man.png"),
                             ),
                             SizedBox(
                               width: 8,
@@ -196,9 +196,9 @@ class _HomePageState extends State<HomePage> {
                               height: 60,
                               width: 40,
                               decoration: BoxDecoration(
-                                  color: Colors.grey,
+                                  color: Colors.white24,
                                   borderRadius: BorderRadius.circular(15),
-                                  border: Border.all()),
+                                  border: Border.all(width: 1)),
                               child: Icon(CupertinoIcons.dot_radiowaves_right),
                             )
                           ],
