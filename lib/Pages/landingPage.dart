@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sosho/Pages/homePage.dart';
+import 'package:sosho/Pages/liveCallPage.dart';
 
 class Landingpage extends StatefulWidget {
   const Landingpage({super.key});
@@ -125,7 +126,7 @@ class _LandingpageState extends State<Landingpage> {
                 ),
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => LiveCallPage()));
                 },
               ),
               SizedBox(

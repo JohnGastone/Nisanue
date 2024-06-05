@@ -14,20 +14,16 @@ class _LiveCallPageState extends State<LiveCallPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Center(
-          child: Column(
-            children: [
-              Container(
-                height: 1200,
-                width: double.maxFinite,
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("./assets/image.png"))),
-              )
-            ],
-          ),
-        ),
-      ),
+          child: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context)
+            .size
+            .height, // Ensure the container covers the full height of the screen
+
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("./assets/image.png"), fit: BoxFit.cover)),
+      )),
     );
   }
 }
