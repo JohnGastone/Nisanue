@@ -21,36 +21,45 @@ class _LandingpageState extends State<Landingpage> {
               SizedBox(
                 height: 250,
               ),
-              Text.rich(TextSpan(children: <TextSpan>[
-                TextSpan(
-                    text: "E",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "M",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "B",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "R",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "A",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "C",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300)),
-                TextSpan(
-                    text: "E",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 30, fontWeight: FontWeight.w300))
-              ]))
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text.rich(TextSpan(children: <TextSpan>[
+                  TextSpan(children: [
+                    TextSpan(
+                        text: "E",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 10,
+                    )),
+                    TextSpan(
+                        text: "M",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    TextSpan(
+                        text: "B",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    TextSpan(
+                        text: "R",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    TextSpan(
+                        text: "A",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    TextSpan(
+                        text: "C",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300)),
+                    TextSpan(
+                        text: "E",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w300))
+                  ])
+                ])),
+              )
             ],
           ),
         ),
