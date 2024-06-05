@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class LiveCallPage extends StatefulWidget {
@@ -10,6 +12,14 @@ class LiveCallPage extends StatefulWidget {
 class _LiveCallPageState extends State<LiveCallPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            children: [],
+          ),
+        ),
+      ),
+    );
   }
 }
