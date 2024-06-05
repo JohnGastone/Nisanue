@@ -215,6 +215,12 @@ class _HomePageState extends State<HomePage> {
                       )
                     ],
                   ),
+                ),
+                SizedBox(
+                  height: 7,
+                ),
+                Row(
+                  children: [Icon(CupertinoIcons.heart_fill)],
                 )
               ],
             )),
