@@ -54,6 +54,21 @@ class _LiveCallPageState extends State<LiveCallPage> {
                         ))
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 200,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Container(
+                    height: 80,
+                    width: 40,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: BorderRadius.circular(10)),
+                  )
+                ],
               )
             ],
           ),
