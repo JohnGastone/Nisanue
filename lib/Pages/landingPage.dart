@@ -19,9 +19,33 @@ class _LandingpageState extends State<Landingpage> {
           child: Column(
             children: [
               SizedBox(
-                height: 50,
+                height: 250,
               ),
               Text.rich(TextSpan(children: <TextSpan>[
+                TextSpan(
+                    text: "E",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
+                TextSpan(
+                    text: "M",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
+                TextSpan(
+                    text: "B",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
+                TextSpan(
+                    text: "R",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
+                TextSpan(
+                    text: "A",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
+                TextSpan(
+                    text: "C",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 30, fontWeight: FontWeight.w300)),
                 TextSpan(
                     text: "E",
                     style: GoogleFonts.montserrat(
