@@ -117,6 +117,42 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     ],
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      child: Image.asset("./assets/man.png"),
+                    ),
+                    SizedBox(
+                      width: 7,
+                    ),
+                    Text(
+                      "Mama Kilakshal",
+                      style: GoogleFonts.montserrat(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 15, left: 20),
+                child: Text(
+                  "Having experience of the World with music",
+                  style: GoogleFonts.montserrat(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.white),
+                ),
               )
             ],
           ),
