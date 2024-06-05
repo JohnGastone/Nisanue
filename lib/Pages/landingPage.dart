@@ -117,6 +117,17 @@ class _LandingpageState extends State<Landingpage> {
                         fontSize: 20, color: Colors.white),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Row(
+                children: [
+                  Container(
+                    decoration:
+                        BoxDecoration(borderRadius: BorderRadius.circular(20)),
+                  )
+                ],
               )
             ],
           ),
