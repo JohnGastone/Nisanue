@@ -15,40 +15,41 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: const Color.fromARGB(255, 221, 206, 206),
         body: SingleChildScrollView(
-      child: Center(
-        child: (Column(
-          children: [
-            SizedBox(
-              height: 80,
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 10, right: 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Connections",
-                    style: GoogleFonts.spaceMono(
-                        fontSize: 25, fontWeight: FontWeight.bold),
-                  ),
-                  Row(
+          child: Center(
+            child: (Column(
+              children: [
+                SizedBox(
+                  height: 80,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Icon(CupertinoIcons.heart),
-                      SizedBox(
-                        width: 5,
+                      Text(
+                        "Connections",
+                        style: GoogleFonts.spaceMono(
+                            fontSize: 25, fontWeight: FontWeight.bold),
                       ),
-                      CircleAvatar(
-                          backgroundColor: Colors.black12,
-                          child: Icon(CupertinoIcons.search))
+                      Row(
+                        children: [
+                          Icon(CupertinoIcons.heart),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                              backgroundColor: Colors.black12,
+                              child: Icon(CupertinoIcons.search))
+                        ],
+                      )
                     ],
-                  )
-                ],
-              ),
-            )
-          ],
-        )),
-      ),
-    ));
+                  ),
+                )
+              ],
+            )),
+          ),
+        ));
   }
 }
