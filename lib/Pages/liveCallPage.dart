@@ -153,6 +153,9 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       fontWeight: FontWeight.w400,
                       color: Colors.white),
                 ),
+              ),
+              SizedBox(
+                height: 15,
               )
             ],
           ),
