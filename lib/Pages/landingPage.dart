@@ -106,7 +106,7 @@ class _LandingpageState extends State<Landingpage> {
                 height: 30,
               ),
               Container(
-                width: 240,
+                width: 340,
                 height: 40,
                 decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 36, 34, 34),
