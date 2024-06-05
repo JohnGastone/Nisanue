@@ -546,6 +546,17 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SizedBox(
                   height: 20,
+                ),
+                Row(
+                  children: [
+                    Container(
+                      height: 170,
+                      width: 200,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(15)),
+                    )
+                  ],
                 )
               ],
             )),
