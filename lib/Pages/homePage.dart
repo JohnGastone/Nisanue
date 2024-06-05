@@ -148,6 +148,64 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  height: 200,
+                  width: 300,
+                  decoration: BoxDecoration(
+                      color: Colors.white24,
+                      borderRadius: BorderRadius.circular(18)),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            CircleAvatar(
+                              child: Image.asset("./assets/google.png"),
+                            ),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Mary R. Lehmann",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  "Bristo Cafe",
+                                  style: GoogleFonts.montserrat(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.grey),
+                                )
+                              ],
+                            ),
+                            SizedBox(width: 75),
+                            Container(
+                              height: 60,
+                              width: 40,
+                              decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(15),
+                                  border: Border.all()),
+                              child: Icon(CupertinoIcons.dot_radiowaves_right),
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                 )
               ],
             )),
