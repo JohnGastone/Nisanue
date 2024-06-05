@@ -107,7 +107,7 @@ class _LandingpageState extends State<Landingpage> {
               ),
               Container(
                 width: 340,
-                height: 40,
+                height: 50,
                 decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 36, 34, 34),
                     borderRadius: BorderRadius.circular(20)),
