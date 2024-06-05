@@ -125,9 +125,17 @@ class _LandingpageState extends State<Landingpage> {
               Row(
                 children: [
                   Container(
+                    height: 40,
+                    width: 150,
                     decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20)),
+                    child: Center(
+                      child: Text(
+                        "SIGN UP",
+                        style: GoogleFonts.montserrat(fontSize: 20),
+                      ),
+                    ),
                   )
                 ],
               )
