@@ -122,40 +122,37 @@ class _LandingpageState extends State<Landingpage> {
               SizedBox(
                 height: 5,
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 50, right: 30),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Container(
-                      height: 40,
-                      width: 150,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Center(
-                        child: Text(
-                          "SIGN UP",
-                          style: GoogleFonts.montserrat(fontSize: 20),
-                        ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    height: 40,
+                    width: 200,
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Center(
+                      child: Text(
+                        "SIGN UP",
+                        style: GoogleFonts.montserrat(fontSize: 20),
                       ),
                     ),
-                    Container(
-                      height: 40,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Center(
-                          child: Image.asset(
-                        "./assets/google.png",
-                        width: 50,
-                        height: 50,
-                      )),
-                    ),
-                  ],
-                ),
-              )
+                  ),
+                  Container(
+                    height: 40,
+                    width: 80,
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Center(
+                        child: Image.asset(
+                      "./assets/google.png",
+                      width: 50,
+                      height: 50,
+                    )),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
