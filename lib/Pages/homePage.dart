@@ -547,16 +547,19 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: 20,
                 ),
-                Row(
-                  children: [
-                    Container(
-                      height: 170,
-                      width: 200,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15)),
-                    )
-                  ],
+                Padding(
+                  padding: const EdgeInsets.only(left: 20, right: 20),
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 170,
+                        width: 200,
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(15)),
+                      )
+                    ],
+                  ),
                 )
               ],
             )),
