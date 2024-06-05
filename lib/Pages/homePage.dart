@@ -759,6 +759,222 @@ class _HomePageState extends State<HomePage> {
                       )
                     ],
                   ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 15, right: 10, bottom: 20),
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 170,
+                        width: 160,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Mama Kilakshal",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "64k Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 170,
+                        width: 160,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Saidi Mboka",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "12k Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 15, right: 10, bottom: 20),
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 170,
+                        width: 160,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Mama Kilakshal",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "64k Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 170,
+                        width: 160,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Saidi Mboka",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "12k Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                 )
               ],
             )),
