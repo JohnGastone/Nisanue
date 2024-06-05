@@ -79,7 +79,10 @@ class _LandingpageState extends State<Landingpage> {
                             fontSize: 30, fontWeight: FontWeight.w300))
                   ])
                 ])),
-              )
+              ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
