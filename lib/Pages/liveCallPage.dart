@@ -27,26 +27,33 @@ class _LiveCallPageState extends State<LiveCallPage> {
         child: Center(
           child: Column(
             children: [
-              Row(
-                children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey,
-                    child: Icon(
-                      CupertinoIcons.plus,
-                      color: Colors.white,
-                    ),
-                  ),
-                  Container(
-                      height: 60,
-                      width: 40,
-                      decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(25)),
+              SizedBox(
+                height: 30,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 20, right: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: Colors.grey,
                       child: Icon(
-                        CupertinoIcons.camera,
+                        CupertinoIcons.plus,
                         color: Colors.white,
-                      ))
-                ],
+                      ),
+                    ),
+                    Container(
+                        height: 60,
+                        width: 40,
+                        decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(25)),
+                        child: Icon(
+                          CupertinoIcons.camera,
+                          color: Colors.white,
+                        ))
+                  ],
+                ),
               )
             ],
           ),
