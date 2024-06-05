@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
               height: 80,
             ),
             Text("Ukiwa na info NISANUE",
-                style: GoogleFonts.sansita(fontSize: 30))
+                style: GoogleFonts.montserrat(fontSize: 30))
           ],
         )),
       ),
