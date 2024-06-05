@@ -122,22 +122,25 @@ class _LandingpageState extends State<Landingpage> {
               SizedBox(
                 height: 20,
               ),
-              Row(
-                children: [
-                  Container(
-                    height: 40,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20)),
-                    child: Center(
-                      child: Text(
-                        "SIGN UP",
-                        style: GoogleFonts.montserrat(fontSize: 20),
+              Padding(
+                padding: const EdgeInsets.only(left: 40, right: 20),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 40,
+                      width: 150,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20)),
+                      child: Center(
+                        child: Text(
+                          "SIGN UP",
+                          style: GoogleFonts.montserrat(fontSize: 20),
+                        ),
                       ),
-                    ),
-                  )
-                ],
+                    )
+                  ],
+                ),
               )
             ],
           ),
