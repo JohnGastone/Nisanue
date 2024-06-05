@@ -108,8 +108,15 @@ class _LandingpageState extends State<Landingpage> {
                 width: 240,
                 height: 40,
                 decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: const Color.fromARGB(255, 36, 34, 34),
                     borderRadius: BorderRadius.circular(20)),
+                child: Center(
+                  child: Text(
+                    "LOGIN",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 20, color: Colors.white),
+                  ),
+                ),
               )
             ],
           ),
