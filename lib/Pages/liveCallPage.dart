@@ -1,5 +1,6 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LiveCallPage extends StatefulWidget {
@@ -23,6 +24,33 @@ class _LiveCallPageState extends State<LiveCallPage> {
         decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage("./assets/image.png"), fit: BoxFit.cover)),
+        child: Center(
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.grey,
+                    child: Icon(
+                      CupertinoIcons.plus,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Container(
+                      height: 60,
+                      width: 40,
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(25)),
+                      child: Icon(
+                        CupertinoIcons.camera,
+                        color: Colors.white,
+                      ))
+                ],
+              )
+            ],
+          ),
+        ),
       )),
     );
   }
