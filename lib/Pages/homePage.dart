@@ -59,6 +59,17 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 10),
+                  child: Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey,
+                        child: Icon(
+                          CupertinoIcons.plus,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
                 )
               ],
             )),
