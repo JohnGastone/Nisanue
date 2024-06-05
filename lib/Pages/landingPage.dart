@@ -14,6 +14,7 @@ class _LandingpageState extends State<Landingpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 221, 206, 206),
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -124,8 +125,9 @@ class _LandingpageState extends State<Landingpage> {
               Row(
                 children: [
                   Container(
-                    decoration:
-                        BoxDecoration(borderRadius: BorderRadius.circular(20)),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20)),
                   )
                 ],
               )
