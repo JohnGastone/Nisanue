@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                   height: 30,
                 ),
                 Container(
-                  height: 300,
+                  height: 350,
                   width: 300,
                   decoration: BoxDecoration(
                       color: Colors.white24,
@@ -212,16 +212,16 @@ class _HomePageState extends State<HomePage> {
                             image: DecorationImage(
                                 image: AssetImage("./assets/image.png"),
                                 fit: BoxFit.cover)),
+                      ),
+                      SizedBox(
+                        height: 7,
+                      ),
+                      Row(
+                        children: [Icon(CupertinoIcons.heart_fill)],
                       )
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  children: [Icon(CupertinoIcons.heart_fill)],
-                )
               ],
             )),
           ),
