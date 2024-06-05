@@ -83,17 +83,24 @@ class _LandingpageState extends State<Landingpage> {
               SizedBox(
                 height: 20,
               ),
-              Text.rich(TextSpan(children: <TextSpan>[
-                TextSpan(
-                    text:
-                        "It is a long established fact that a reader will be distracted by the bunch of Social media, with",
-                    style: GoogleFonts.montserrat(
-                        fontSize: 20, fontWeight: FontWeight.w600)),
-                TextSpan(
-                    text: "Connections",
-                    style: GoogleFonts.spaceMono(
-                        fontSize: 25, color: Colors.lightGreenAccent))
-              ]))
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text.rich(TextSpan(children: <TextSpan>[
+                  TextSpan(
+                      text:
+                          "It is a long established fact that a reader will be distracted by the bunch of Social media, with",
+                      style: GoogleFonts.montserrat(
+                          fontSize: 15, fontWeight: FontWeight.w300)),
+                  TextSpan(
+                      text: " Connections ",
+                      style: GoogleFonts.spaceMono(
+                          fontSize: 25, color: Colors.lightGreenAccent)),
+                  TextSpan(
+                      text: "we got you sorted out",
+                      style: GoogleFonts.montserrat(
+                          fontSize: 15, fontWeight: FontWeight.w300)),
+                ])),
+              )
             ],
           ),
         ),
