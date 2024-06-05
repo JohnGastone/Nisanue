@@ -140,10 +140,10 @@ class _LandingpageState extends State<Landingpage> {
                   ),
                   Container(
                     height: 40,
-                    width: 80,
+                    width: 100,
                     decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20)),
+                        borderRadius: BorderRadius.circular(10)),
                     child: Center(
                         child: Image.asset(
                       "./assets/google.png",
