@@ -84,7 +84,7 @@ class _LandingpageState extends State<Landingpage> {
                 height: 20,
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(left: 20, right: 20),
                 child: Text.rich(TextSpan(children: <TextSpan>[
                   TextSpan(
                       text:
