@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   height: 350,
-                  width: 300,
+                  width: 330,
                   decoration: BoxDecoration(
                       color: Colors.white24,
                       borderRadius: BorderRadius.circular(18)),
@@ -214,7 +214,7 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover)),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(12.0),
+                        padding: const EdgeInsets.only(left: 30, top: 10),
                         child: Row(
                           children: [
                             Row(
@@ -528,10 +528,16 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: 40,
                 ),
-                Text(
-                  "People You May Know",
-                  style: GoogleFonts.montserrat(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                Padding(
+                  padding: const EdgeInsets.only(right: 60),
+                  child: Text(
+                    "People You May Know",
+                    style: GoogleFonts.montserrat(
+                        fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
                 )
               ],
             )),
