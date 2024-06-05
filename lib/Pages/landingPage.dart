@@ -90,16 +90,26 @@ class _LandingpageState extends State<Landingpage> {
                       text:
                           "It is a long established fact that a reader will be distracted by the bunch of Social media, with",
                       style: GoogleFonts.montserrat(
-                          fontSize: 15, fontWeight: FontWeight.w300)),
+                          fontSize: 17, fontWeight: FontWeight.w300)),
                   TextSpan(
                       text: " Connections ",
                       style: GoogleFonts.spaceMono(
-                          fontSize: 25, color: Colors.lightGreenAccent)),
+                          fontSize: 23, color: Colors.lightGreenAccent)),
                   TextSpan(
                       text: "we got you sorted out",
                       style: GoogleFonts.montserrat(
-                          fontSize: 15, fontWeight: FontWeight.w300)),
+                          fontSize: 17, fontWeight: FontWeight.w300)),
                 ])),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                width: 240,
+                height: 40,
+                decoration: BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.circular(20)),
               )
             ],
           ),
