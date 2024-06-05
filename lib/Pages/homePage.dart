@@ -161,7 +161,8 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(
+                            left: 20, top: 15, bottom: 10),
                         child: Row(
                           children: [
                             CircleAvatar(
@@ -214,7 +215,8 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover)),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 30, top: 10),
+                        padding:
+                            const EdgeInsets.only(left: 30, right: 10, top: 10),
                         child: Row(
                           children: [
                             Row(
@@ -234,7 +236,7 @@ class _HomePageState extends State<HomePage> {
                               ],
                             ),
                             SizedBox(
-                              width: 154,
+                              width: 150,
                             ),
                             Icon(CupertinoIcons.bookmark)
                           ],
@@ -248,14 +250,15 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   height: 350,
-                  width: 300,
+                  width: 330,
                   decoration: BoxDecoration(
                       color: Colors.white24,
                       borderRadius: BorderRadius.circular(18)),
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(
+                            left: 20, top: 15, bottom: 10),
                         child: Row(
                           children: [
                             CircleAvatar(
@@ -308,7 +311,8 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover)),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(12.0),
+                        padding:
+                            const EdgeInsets.only(left: 30, right: 10, top: 10),
                         child: Row(
                           children: [
                             Row(
@@ -328,7 +332,7 @@ class _HomePageState extends State<HomePage> {
                               ],
                             ),
                             SizedBox(
-                              width: 154,
+                              width: 150,
                             ),
                             Icon(CupertinoIcons.bookmark)
                           ],
@@ -342,14 +346,15 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   height: 350,
-                  width: 300,
+                  width: 330,
                   decoration: BoxDecoration(
                       color: Colors.white24,
                       borderRadius: BorderRadius.circular(18)),
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(
+                            left: 20, top: 15, bottom: 10),
                         child: Row(
                           children: [
                             CircleAvatar(
@@ -402,7 +407,8 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover)),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(12.0),
+                        padding:
+                            const EdgeInsets.only(left: 30, right: 10, top: 10),
                         child: Row(
                           children: [
                             Row(
@@ -422,7 +428,7 @@ class _HomePageState extends State<HomePage> {
                               ],
                             ),
                             SizedBox(
-                              width: 154,
+                              width: 150,
                             ),
                             Icon(CupertinoIcons.bookmark)
                           ],
@@ -436,14 +442,15 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   height: 350,
-                  width: 300,
+                  width: 330,
                   decoration: BoxDecoration(
                       color: Colors.white24,
                       borderRadius: BorderRadius.circular(18)),
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(
+                            left: 20, top: 15, bottom: 10),
                         child: Row(
                           children: [
                             CircleAvatar(
@@ -496,7 +503,8 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover)),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(12.0),
+                        padding:
+                            const EdgeInsets.only(left: 30, right: 10, top: 10),
                         child: Row(
                           children: [
                             Row(
@@ -516,7 +524,7 @@ class _HomePageState extends State<HomePage> {
                               ],
                             ),
                             SizedBox(
-                              width: 154,
+                              width: 150,
                             ),
                             Icon(CupertinoIcons.bookmark)
                           ],
