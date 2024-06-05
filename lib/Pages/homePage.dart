@@ -525,6 +525,14 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
+                SizedBox(
+                  height: 40,
+                ),
+                Text(
+                  "People You May Know",
+                  style: GoogleFonts.montserrat(
+                      fontSize: 20, fontWeight: FontWeight.bold),
+                )
               ],
             )),
           ),
