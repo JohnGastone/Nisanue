@@ -894,7 +894,7 @@ class _HomePageState extends State<HomePage> {
                               height: 10,
                             ),
                             Text(
-                              "Mama Kilakshal",
+                              "Kiboga Mrembo",
                               style: GoogleFonts.montserrat(
                                   fontSize: 17, fontWeight: FontWeight.bold),
                             ),
@@ -902,7 +902,7 @@ class _HomePageState extends State<HomePage> {
                               height: 5,
                             ),
                             Text(
-                              "64k Followers",
+                              "604k Followers",
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
@@ -944,7 +944,7 @@ class _HomePageState extends State<HomePage> {
                               height: 10,
                             ),
                             Text(
-                              "Saidi Mboka",
+                              "Naunai Malale",
                               style: GoogleFonts.montserrat(
                                   fontSize: 17, fontWeight: FontWeight.bold),
                             ),
@@ -952,7 +952,7 @@ class _HomePageState extends State<HomePage> {
                               height: 5,
                             ),
                             Text(
-                              "12k Followers",
+                              "122k Followers",
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
