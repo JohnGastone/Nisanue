@@ -213,11 +213,19 @@ class _HomePageState extends State<HomePage> {
                                 image: AssetImage("./assets/image.png"),
                                 fit: BoxFit.cover)),
                       ),
-                      SizedBox(
-                        height: 7,
-                      ),
-                      Row(
-                        children: [Icon(CupertinoIcons.heart_fill)],
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Icon(
+                              CupertinoIcons.heart_fill,
+                              color: Colors.red,
+                            ),
+                            Icon(Icons.message_sharp),
+                            Icon(CupertinoIcons.mail),
+                          ],
+                        ),
                       )
                     ],
                   ),
