@@ -549,12 +549,12 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 20, right: 20, bottom: 20),
+                      const EdgeInsets.only(left: 15, right: 10, bottom: 20),
                   child: Row(
                     children: [
                       Container(
                         height: 170,
-                        width: 170,
+                        width: 160,
                         decoration: BoxDecoration(
                             color: Colors.white24,
                             borderRadius: BorderRadius.circular(15)),
@@ -578,7 +578,7 @@ class _HomePageState extends State<HomePage> {
                               height: 5,
                             ),
                             Text(
-                              "643 Followers",
+                              "64k Followers",
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
@@ -593,11 +593,11 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       SizedBox(
-                        width: 20,
+                        width: 10,
                       ),
                       Container(
                         height: 170,
-                        width: 170,
+                        width: 160,
                         decoration: BoxDecoration(
                             color: Colors.white24,
                             borderRadius: BorderRadius.circular(15)),
@@ -613,7 +613,7 @@ class _HomePageState extends State<HomePage> {
                               height: 10,
                             ),
                             Text(
-                              "Mama Kilakshal",
+                              "Saidi Mboka",
                               style: GoogleFonts.montserrat(
                                   fontSize: 17, fontWeight: FontWeight.bold),
                             ),
@@ -621,7 +621,7 @@ class _HomePageState extends State<HomePage> {
                               height: 5,
                             ),
                             Text(
-                              "643 Followers",
+                              "12k Followers",
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
