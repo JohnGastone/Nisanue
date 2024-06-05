@@ -558,6 +558,16 @@ class _HomePageState extends State<HomePage> {
                         decoration: BoxDecoration(
                             color: Colors.white24,
                             borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            )
+                          ],
+                        ),
                       )
                     ],
                   ),
