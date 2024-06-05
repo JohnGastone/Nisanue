@@ -39,9 +39,16 @@ class _HomePageState extends State<HomePage> {
                           SizedBox(
                             width: 5,
                           ),
-                          CircleAvatar(
-                              backgroundColor: Colors.black12,
-                              child: Icon(CupertinoIcons.search))
+                          Container(
+                              height: 60,
+                              width: 40,
+                              decoration: BoxDecoration(
+                                  color: Colors.black,
+                                  borderRadius: BorderRadius.circular(25)),
+                              child: Icon(
+                                CupertinoIcons.search,
+                                color: Colors.white,
+                              ))
                         ],
                       )
                     ],
