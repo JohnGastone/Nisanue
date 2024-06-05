@@ -38,7 +38,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     CircleAvatar(
                       backgroundColor: Colors.grey,
                       child: Icon(
-                        CupertinoIcons.plus,
+                        CupertinoIcons.back,
                         color: Colors.white,
                       ),
                     ),
