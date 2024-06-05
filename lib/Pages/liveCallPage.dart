@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class LiveCallPage extends StatefulWidget {
   const LiveCallPage({super.key});
@@ -61,19 +62,57 @@ class _LiveCallPageState extends State<LiveCallPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 250),
                 child: Container(
-                  height: 200,
+                  height: 220,
                   width: 60,
                   decoration: BoxDecoration(
                       color: Colors.white24,
                       borderRadius: BorderRadius.circular(20)),
                   child: Column(
                     children: [
+                      SizedBox(
+                        height: 10,
+                      ),
                       CircleAvatar(
                         backgroundColor: Colors.white,
                         child: Icon(
                           CupertinoIcons.heart_fill,
                           color: Colors.redAccent,
                         ),
+                      ),
+                      Text(
+                        "3k",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 18, color: Colors.white),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          CupertinoIcons.chat_bubble,
+                          color: Colors.black,
+                        ),
+                      ),
+                      Text(
+                        "21",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 18, color: Colors.white),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          Icons.share,
+                          color: Colors.black,
+                        ),
+                      ),
+                      Text(
+                        "121",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 18, color: Colors.white),
                       )
                     ],
                   ),
