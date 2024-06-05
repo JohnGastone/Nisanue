@@ -565,6 +565,72 @@ class _HomePageState extends State<HomePage> {
                             ),
                             CircleAvatar(
                               child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Mama Kilakshal",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "643 Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            FloatingActionButton(
+                              onPressed: () {},
+                              child: Text(
+                                "Follow",
+                                style: GoogleFonts.montserrat(fontSize: 13),
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Container(
+                        height: 170,
+                        width: 170,
+                        decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 10,
+                            ),
+                            CircleAvatar(
+                              child: Image.asset("./assets/man.png"),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Mama Kilakshal",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 17, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              "643 Followers",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 15, fontWeight: FontWeight.w300),
+                            ),
+                            FloatingActionButton(
+                              onPressed: () {},
+                              child: Text(
+                                "Follow",
+                                style: GoogleFonts.montserrat(fontSize: 13),
+                              ),
                             )
                           ],
                         ),
