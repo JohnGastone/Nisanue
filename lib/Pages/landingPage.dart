@@ -31,28 +31,48 @@ class _LandingpageState extends State<Landingpage> {
                             fontSize: 30, fontWeight: FontWeight.w300)),
                     WidgetSpan(
                         child: SizedBox(
-                      width: 10,
+                      width: 20,
                     )),
                     TextSpan(
                         text: "M",
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 20,
+                    )),
                     TextSpan(
                         text: "B",
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 20,
+                    )),
                     TextSpan(
                         text: "R",
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 20,
+                    )),
                     TextSpan(
                         text: "A",
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 20,
+                    )),
                     TextSpan(
                         text: "C",
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w300)),
+                    WidgetSpan(
+                        child: SizedBox(
+                      width: 20,
+                    )),
                     TextSpan(
                         text: "E",
                         style: GoogleFonts.montserrat(
