@@ -582,11 +582,18 @@ class _HomePageState extends State<HomePage> {
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
-                            FloatingActionButton(
-                              onPressed: () {},
-                              child: Text(
-                                "Follow",
-                                style: GoogleFonts.montserrat(fontSize: 13),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
                               ),
                             )
                           ],
@@ -625,11 +632,18 @@ class _HomePageState extends State<HomePage> {
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
-                            FloatingActionButton(
-                              onPressed: () {},
-                              child: Text(
-                                "Follow",
-                                style: GoogleFonts.montserrat(fontSize: 13),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            SizedBox(
+                              height: 30,
+                              width: 60,
+                              child: FloatingActionButton(
+                                onPressed: () {},
+                                child: Text(
+                                  "Follow",
+                                  style: GoogleFonts.montserrat(fontSize: 13),
+                                ),
                               ),
                             )
                           ],
