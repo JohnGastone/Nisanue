@@ -227,6 +227,13 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     )
                   ],
                 ),
+              ),
+              Container(
+                width: 200,
+                height: 50,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                    color: Colors.white24),
               )
             ],
           ),
