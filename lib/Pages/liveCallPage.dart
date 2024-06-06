@@ -45,7 +45,10 @@ class _LiveCallPageState extends State<LiveCallPage> {
                             color: Colors.white,
                           ),
                           onTap: () {
-                            Navigator.pop(context);
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ExplorePage()));
                           }),
                     ),
                     Container(
