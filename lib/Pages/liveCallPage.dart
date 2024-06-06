@@ -141,6 +141,11 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     SizedBox(
                       width: 10,
                     ),
+                    Image.asset(
+                      "./assets/correct.png",
+                      height: 20,
+                      width: 20,
+                    )
                   ],
                 ),
               ),
