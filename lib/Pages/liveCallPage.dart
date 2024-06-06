@@ -161,6 +161,24 @@ class _LiveCallPageState extends State<LiveCallPage> {
               ),
               SizedBox(
                 height: 15,
+              ),
+              Row(
+                children: [
+                  Column(
+                    children: [],
+                  ),
+                  SizedBox(
+                    width: 50,
+                    height: 50,
+                    child: CircleAvatar(
+                        backgroundColor: Colors.white24,
+                        child: Image.asset(
+                          "./assets/man.png",
+                          height: 30,
+                          width: 30,
+                        )),
+                  )
+                ],
               )
             ],
           ),
