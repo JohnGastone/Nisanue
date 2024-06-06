@@ -132,7 +132,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       width: 7,
                     ),
                     Text(
-                      "Mama Kilakshal",
+                      "Jay Moe",
                       style: GoogleFonts.montserrat(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
