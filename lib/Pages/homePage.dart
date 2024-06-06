@@ -974,19 +974,31 @@ class _HomePageState extends State<HomePage> {
               )),
             ),
           ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: FloatingActionButton(
-                child: Text(
-                  "Go Live",
-                  style: GoogleFonts.montserrat(
-                      fontSize: 17, fontWeight: FontWeight.w400),
-                ),
-                onPressed: () {
-                  Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => LiveCallPage()));
-                }),
-          )
+          Padding(
+            padding: const EdgeInsets.only(
+              bottom: 30,
+              left: 20,
+            ),
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: SizedBox(
+                width: 120,
+                child: FloatingActionButton(
+                    backgroundColor: Colors.white24,
+                    child: Text(
+                      "Go Live",
+                      style: GoogleFonts.montserrat(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white),
+                    ),
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => LiveCallPage()));
+                    }),
+              ),
+            ),
+          ),
         ]));
   }
 }
