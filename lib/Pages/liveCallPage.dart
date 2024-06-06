@@ -65,7 +65,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 ),
               ),
               SizedBox(
-                height: 180,
+                height: 50,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 250),
