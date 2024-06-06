@@ -273,11 +273,6 @@ class _LiveCallPageState extends State<LiveCallPage> {
                           SizedBox(
                             width: 5,
                           ),
-                          Text(
-                            "ADD COMMENT",
-                            style: GoogleFonts.montserrat(
-                                fontSize: 15, color: Colors.white),
-                          )
                         ],
                       ),
                       Icon(

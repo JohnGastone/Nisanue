@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                     fontSize: 15, fontWeight: FontWeight.bold),
                 unselectedLabelStyle: GoogleFonts.spaceMono(
                     fontSize: 15, fontWeight: FontWeight.bold),
-                backgroundColor: Colors.white24,
+                backgroundColor: Color.fromARGB(60, 79, 114, 158),
                 items: const <BottomNavigationBarItem>[
                   BottomNavigationBarItem(
                     icon: Icon(Icons.explore),
