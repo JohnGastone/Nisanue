@@ -165,7 +165,17 @@ class _LiveCallPageState extends State<LiveCallPage> {
               Row(
                 children: [
                   Column(
-                    children: [],
+                    children: [
+                      Row(
+                        children: [
+                          Image.asset(
+                            "./assets/bass.png",
+                            height: 30,
+                            width: 40,
+                          )
+                        ],
+                      )
+                    ],
                   ),
                   SizedBox(
                     width: 50,
