@@ -48,11 +48,11 @@ class _HomePageState extends State<HomePage> {
                 items: const <BottomNavigationBarItem>[
                   BottomNavigationBarItem(
                     icon: Icon(Icons.explore),
-                    label: 'Home',
+                    label: '',
                   ),
                   BottomNavigationBarItem(
                     icon: Icon(CupertinoIcons.videocam),
-                    label: 'Go Live',
+                    label: '',
                   ),
                 ],
                 currentIndex: _selectedIndex,

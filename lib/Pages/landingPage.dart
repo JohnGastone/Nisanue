@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sosho/Pages/explorePage.dart';
 import 'package:sosho/Pages/homePage.dart';
 
 class Landingpage extends StatefulWidget {
