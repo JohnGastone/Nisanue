@@ -3,7 +3,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sosho/Pages/liveCallPage.dart';
 import 'package:sosho/Pages/explorePage.dart';
 
 class HomePage extends StatefulWidget {

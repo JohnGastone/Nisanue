@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sosho/Pages/explorePage.dart';
 import 'package:sosho/Pages/homePage.dart';
 
 class Landingpage extends StatefulWidget {
@@ -125,7 +126,7 @@ class _LandingpageState extends State<Landingpage> {
                 ),
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => ExplorePage()));
                 },
               ),
               SizedBox(
