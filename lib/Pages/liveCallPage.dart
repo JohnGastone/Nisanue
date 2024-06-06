@@ -122,7 +122,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 height: 20,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 20),
+                padding: const EdgeInsets.only(left: 30),
                 child: Row(
                   children: [
                     CircleAvatar(
@@ -163,7 +163,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 height: 15,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 15),
+                padding: const EdgeInsets.only(left: 25),
                 child: Row(
                   children: [
                     Column(
