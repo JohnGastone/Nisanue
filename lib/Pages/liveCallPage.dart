@@ -237,21 +237,32 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white24),
-                child: Row(
-                  children: [
-                    Row(
-                      children: [
-                        CircleAvatar(
-                          child: Image.asset("./assets/man.png"),
-                        ),
-                        Text(
-                          "ADD COMMENT",
-                          style: GoogleFonts.montserrat(
-                              fontSize: 15, color: Colors.white),
-                        )
-                      ],
-                    )
-                  ],
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          CircleAvatar(
+                            child: Image.asset("./assets/man.png"),
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            "ADD COMMENT",
+                            style: GoogleFonts.montserrat(
+                                fontSize: 15, color: Colors.white),
+                          )
+                        ],
+                      ),
+                      Icon(
+                        CupertinoIcons.chat_bubble,
+                        color: Colors.white,
+                      )
+                    ],
+                  ),
                 ),
               )
             ],
