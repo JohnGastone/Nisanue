@@ -162,33 +162,46 @@ class _LiveCallPageState extends State<LiveCallPage> {
               SizedBox(
                 height: 15,
               ),
-              Row(
-                children: [
-                  Column(
-                    children: [
-                      Row(
-                        children: [
-                          Image.asset(
-                            "./assets/bass.png",
+              Padding(
+                padding: const EdgeInsets.only(left: 15),
+                child: Row(
+                  children: [
+                    Column(
+                      children: [
+                        Row(
+                          children: [
+                            Image.asset(
+                              "./assets/bass.png",
+                              height: 30,
+                              width: 30,
+                            ),
+                            Text(
+                              "ALL ABOUT BONGO FLAVA",
+                              style: GoogleFonts.montserrat(
+                                  fontWeight: FontWeight.w500,
+                                  fontSize: 20,
+                                  color: Colors.white),
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    SizedBox(
+                      width: 45,
+                      height: 45,
+                      child: CircleAvatar(
+                          backgroundColor: Colors.white24,
+                          child: Image.asset(
+                            "./assets/man.png",
                             height: 30,
-                            width: 40,
-                          )
-                        ],
-                      )
-                    ],
-                  ),
-                  SizedBox(
-                    width: 50,
-                    height: 50,
-                    child: CircleAvatar(
-                        backgroundColor: Colors.white24,
-                        child: Image.asset(
-                          "./assets/man.png",
-                          height: 30,
-                          width: 30,
-                        )),
-                  )
-                ],
+                            width: 30,
+                          )),
+                    )
+                  ],
+                ),
               )
             ],
           ),
