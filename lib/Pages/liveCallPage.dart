@@ -61,12 +61,12 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 ),
               ),
               SizedBox(
-                height: 230,
+                height: 180,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 250),
                 child: Container(
-                  height: 220,
+                  height: 290,
                   width: 60,
                   decoration: BoxDecoration(
                       color: Colors.white24,
@@ -100,6 +100,21 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       ),
                       Text(
                         "21",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 18, color: Colors.white),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          Icons.share,
+                          color: Colors.black,
+                        ),
+                      ),
+                      Text(
+                        "125",
                         style: GoogleFonts.montserrat(
                             fontSize: 18, color: Colors.white),
                       ),
@@ -237,7 +252,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
               ),
               Container(
                 width: 340,
-                height: 50,
+                height: 40,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white24),
