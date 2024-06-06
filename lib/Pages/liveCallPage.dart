@@ -38,10 +38,14 @@ class _LiveCallPageState extends State<LiveCallPage> {
                   children: [
                     CircleAvatar(
                       backgroundColor: Colors.grey,
-                      child: Icon(
-                        CupertinoIcons.back,
-                        color: Colors.white,
-                      ),
+                      child: InkWell(
+                          child: Icon(
+                            CupertinoIcons.back,
+                            color: Colors.white,
+                          ),
+                          onTap: () {
+                            Navigator.pop(context);
+                          }),
                     ),
                     Container(
                         height: 60,

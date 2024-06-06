@@ -89,21 +89,17 @@ class _HomePageState extends State<HomePage> {
                             height: 70,
                             width: 70,
                             child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Icon(
-                                CupertinoIcons.plus,
-                                color: Colors.white,
-                              ),
-                            ),
+                                backgroundColor: Colors.grey,
+                                child: Image.asset("./assets/man.png")),
                           ),
                           Text(
-                            "Add",
-                            style: GoogleFonts.montserrat(fontSize: 15),
+                            "Sam Kibigi",
+                            style: GoogleFonts.montserrat(fontSize: 12),
                           )
                         ],
                       ),
                       SizedBox(
-                        width: 14,
+                        width: 6,
                       ),
                       Column(
                         children: [
@@ -111,21 +107,17 @@ class _HomePageState extends State<HomePage> {
                             height: 70,
                             width: 70,
                             child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Icon(
-                                CupertinoIcons.plus,
-                                color: Colors.white,
-                              ),
-                            ),
+                                backgroundColor: Colors.grey,
+                                child: Image.asset("./assets/man.png")),
                           ),
                           Text(
-                            "Add",
-                            style: GoogleFonts.montserrat(fontSize: 15),
+                            "Mussa Timbanga",
+                            style: GoogleFonts.montserrat(fontSize: 12),
                           )
                         ],
                       ),
                       SizedBox(
-                        width: 14,
+                        width: 6,
                       ),
                       Column(
                         children: [
@@ -133,16 +125,12 @@ class _HomePageState extends State<HomePage> {
                             height: 70,
                             width: 70,
                             child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Icon(
-                                CupertinoIcons.plus,
-                                color: Colors.white,
-                              ),
-                            ),
+                                backgroundColor: Colors.grey,
+                                child: Image.asset("./assets/man.png")),
                           ),
                           Text(
-                            "Add",
-                            style: GoogleFonts.montserrat(fontSize: 15),
+                            "Henry Mkuchu",
+                            style: GoogleFonts.montserrat(fontSize: 12),
                           )
                         ],
                       ),
