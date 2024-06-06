@@ -228,12 +228,31 @@ class _LiveCallPageState extends State<LiveCallPage> {
                   ],
                 ),
               ),
+              SizedBox(
+                height: 10,
+              ),
               Container(
-                width: 250,
+                width: 340,
                 height: 50,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white24),
+                child: Row(
+                  children: [
+                    Row(
+                      children: [
+                        CircleAvatar(
+                          child: Image.asset("./assets/man.png"),
+                        ),
+                        Text(
+                          "ADD COMMENT",
+                          style: GoogleFonts.montserrat(
+                              fontSize: 15, color: Colors.white),
+                        )
+                      ],
+                    )
+                  ],
+                ),
               )
             ],
           ),
