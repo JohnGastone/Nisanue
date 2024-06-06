@@ -183,6 +183,31 @@ class _LiveCallPageState extends State<LiveCallPage> {
                                   color: Colors.white),
                             )
                           ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "#bongotrending",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 12, color: Colors.white),
+                            ),
+                            SizedBox(
+                              width: 7,
+                            ),
+                            Text(
+                              "#rnbtrending",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 12, color: Colors.white),
+                            ),
+                            SizedBox(
+                              width: 7,
+                            ),
+                            Text(
+                              "#people",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: 12, color: Colors.white),
+                            ),
+                          ],
                         )
                       ],
                     ),
@@ -190,8 +215,8 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       width: 25,
                     ),
                     SizedBox(
-                      width: 45,
-                      height: 45,
+                      width: 50,
+                      height: 50,
                       child: CircleAvatar(
                           backgroundColor: Colors.white24,
                           child: Image.asset(
