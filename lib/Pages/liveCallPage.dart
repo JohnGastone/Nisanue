@@ -134,7 +134,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     Text(
                       "Mama Kilakshal",
                       style: GoogleFonts.montserrat(
-                          fontSize: 25,
+                          fontSize: 17,
                           fontWeight: FontWeight.bold,
                           color: Colors.white),
                     ),
@@ -179,7 +179,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                               "ALL ABOUT BONGO FLAVA",
                               style: GoogleFonts.montserrat(
                                   fontWeight: FontWeight.w500,
-                                  fontSize: 20,
+                                  fontSize: 16,
                                   color: Colors.white),
                             )
                           ],
@@ -187,7 +187,7 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       ],
                     ),
                     SizedBox(
-                      width: 5,
+                      width: 25,
                     ),
                     SizedBox(
                       width: 45,
