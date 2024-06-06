@@ -124,12 +124,12 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       CircleAvatar(
                         backgroundColor: Colors.white,
                         child: Icon(
-                          Icons.share,
+                          CupertinoIcons.video_camera,
                           color: Colors.black,
                         ),
                       ),
                       Text(
-                        "125",
+                        "300",
                         style: GoogleFonts.montserrat(
                             fontSize: 18, color: Colors.white),
                       )

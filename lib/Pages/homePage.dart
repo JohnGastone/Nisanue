@@ -984,7 +984,7 @@ class _HomePageState extends State<HomePage> {
               child: SizedBox(
                 width: 120,
                 child: FloatingActionButton(
-                    backgroundColor: Colors.white24,
+                    backgroundColor: Color.fromARGB(116, 48, 40, 95),
                     child: Text(
                       "Go Live",
                       style: GoogleFonts.montserrat(
