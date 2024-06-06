@@ -13,6 +13,19 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  int _selectedIndex = 0;
+
+  void _OnItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
+  static List<Widget> _pages = <Widget>[
+    HomePage(),
+    LiveCallPage(),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -974,31 +987,35 @@ class _HomePageState extends State<HomePage> {
               )),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(
-              bottom: 30,
-              left: 20,
-            ),
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: SizedBox(
-                width: 120,
-                child: FloatingActionButton(
-                    backgroundColor: Color.fromARGB(116, 48, 40, 95),
-                    child: Text(
-                      "Go Live",
-                      style: GoogleFonts.montserrat(
-                          fontSize: 17,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white),
-                    ),
-                    onPressed: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => LiveCallPage()));
-                    }),
+          Positioned(
+            bottom: 20,
+            left: 10,
+            right: 10,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(50),
+              child: BottomNavigationBar(
+                selectedLabelStyle: GoogleFonts.spaceMono(
+                    fontSize: 15, fontWeight: FontWeight.bold),
+                unselectedLabelStyle: GoogleFonts.spaceMono(
+                    fontSize: 15, fontWeight: FontWeight.bold),
+                backgroundColor: Colors.white24,
+                items: const <BottomNavigationBarItem>[
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.explore),
+                    label: 'Home',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(CupertinoIcons.videocam),
+                    label: 'Go Live',
+                  ),
+                ],
+                currentIndex: _selectedIndex,
+                selectedItemColor: Colors.green,
+                onTap: _OnItemTapped,
+                elevation: 10,
               ),
             ),
-          ),
+          )
         ]));
   }
 }
