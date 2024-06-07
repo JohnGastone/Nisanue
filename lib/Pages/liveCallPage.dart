@@ -243,9 +243,9 @@ class _LiveCallPageState extends State<LiveCallPage> {
                       child: CircleAvatar(
                           backgroundColor: Colors.white24,
                           child: Image.asset(
-                            "./assets/man.png",
-                            height: 30,
-                            width: 30,
+                            "./assets/p1.png",
+                            height: 50,
+                            width: 50,
                           )),
                     )
                   ],
