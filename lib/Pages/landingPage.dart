@@ -95,9 +95,9 @@ class _LandingpageState extends State<Landingpage> {
                           fontSize: 17, fontWeight: FontWeight.w300)),
                   TextSpan(
                       text: " Connections ",
-                      style: GoogleFonts.spaceMono(
+                      style: GoogleFonts.dancingScript(
                           fontSize: 23,
-                          color: Colors.black,
+                          color: Colors.blueAccent,
                           fontWeight: FontWeight.bold)),
                   TextSpan(
                       text: "we got you sorted out",
