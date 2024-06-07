@@ -28,60 +28,61 @@ class _LandingpageState extends State<Landingpage> {
                   TextSpan(
                       text: "E",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "M",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "B",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "R",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "A",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "C",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300)),
+                          fontSize: 20, fontWeight: FontWeight.w300)),
                   WidgetSpan(
                       child: SizedBox(
-                    width: 20,
+                    width: 10,
                   )),
                   TextSpan(
                       text: "E",
                       style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w300))
+                          fontSize: 20, fontWeight: FontWeight.w300))
                 ])
               ])),
-              Image.asset(
-                "./assets/cc.png",
-                height: 260,
+              Text(
+                "Connections",
+                style: GoogleFonts.dancingScript(
+                    fontSize: 70, color: Colors.blueAccent),
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
