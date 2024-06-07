@@ -2,22 +2,25 @@ class FollowingModel {
   String? image;
   String? name;
 
-  FollowingModel({
+  FollowingModel(
     this.image,
     this.name,
-  });
+  );
 }
 
 class FollowingList {
-  List<FollowingModel>? getList = [
+  static List<FollowingModel> getFollowingList = [
     FollowingModel(
-      image: 'assets/pp.png',
-      name: 'Mwantumu Cute',
+      'assets/pp.png',
+      'Mwantumu Cute',
     ),
     FollowingModel(
-      image: 'assets/pp1.png',
-      name: 'Mwantumu Cute',
+      'assets/pp1.png',
+      'Mwantumu Cute',
     ),
-    FollowingModel(image: './assets/pp2.png', name: 'Mwantumu Cute')
+    FollowingModel('./assets/pp2.png', 'Mwantumu Cute')
   ];
+
+  static List<FollowingModel> displayFollowingList =
+      List.from(getFollowingList);
 }

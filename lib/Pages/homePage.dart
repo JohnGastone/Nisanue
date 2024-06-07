@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sosho/Pages/liveCallPage.dart';
 
+import '../models/following_model.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -74,6 +76,9 @@ class ExplorePage extends StatefulWidget {
 }
 
 class _ExplorePageState extends State<ExplorePage> {
+  List<FollowingModel> displayFollowing =
+      List.from(FollowingList.getFollowingList);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -144,20 +149,25 @@ class _ExplorePageState extends State<ExplorePage> {
                     SizedBox(
                       width: 14,
                     ),
-                    Column(
-                      children: [
-                        SizedBox(
-                          height: 70,
-                          width: 70,
-                          child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Image.asset("./assets/man.png")),
-                        ),
-                        Text(
-                          "Sam Kibigi",
-                          style: GoogleFonts.montserrat(fontSize: 12),
-                        )
-                      ],
+                    ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      shrinkWrap: true,
+                      physics: NeverScrollableScrollPhysics(),
+                      itemBuilder: (context, index) => Column(
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                                backgroundColor: Colors.grey,
+                                child: Image.asset("./assets/man.png")),
+                          ),
+                          Text(
+                            "Sam Kibigi",
+                            style: GoogleFonts.montserrat(fontSize: 12),
+                          )
+                        ],
+                      ),
                     ),
                     SizedBox(
                       width: 6,
