@@ -21,7 +21,8 @@ class _LandingpageState extends State<Landingpage> {
           child: Column(
             children: [
               SizedBox(
-                height: 250,
+                height: 400,
+                child: Image.asset("./assets/thumb.png"),
               ),
               Text.rich(TextSpan(children: <TextSpan>[
                 TextSpan(children: [
