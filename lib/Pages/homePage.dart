@@ -127,83 +127,33 @@ class _ExplorePageState extends State<ExplorePage> {
                 padding: const EdgeInsets.only(left: 20),
                 child: Row(
                   children: [
-                    Column(
-                      children: [
-                        SizedBox(
-                          height: 70,
-                          width: 70,
-                          child: CircleAvatar(
-                            backgroundColor: Colors.grey,
-                            child: Icon(
-                              CupertinoIcons.plus,
-                              color: Colors.white,
-                            ),
+                    SizedBox(
+                      height: 150,
+                      child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        shrinkWrap: true,
+                        physics: NeverScrollableScrollPhysics(),
+                        itemCount: displayFollowing.length,
+                        itemBuilder: (context, index) => InkWell(
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                height: 80,
+                                width: 80,
+                                child: CircleAvatar(
+                                    backgroundColor:
+                                        const Color.fromARGB(60, 237, 233, 233),
+                                    child: Image.asset(
+                                        displayFollowing[index].image!)),
+                              ),
+                              Text(
+                                displayFollowing[index].name!,
+                                style: GoogleFonts.montserrat(fontSize: 12),
+                              )
+                            ],
                           ),
                         ),
-                        Text(
-                          "Add",
-                          style: GoogleFonts.montserrat(fontSize: 15),
-                        )
-                      ],
-                    ),
-                    SizedBox(
-                      width: 14,
-                    ),
-                    ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      shrinkWrap: true,
-                      physics: NeverScrollableScrollPhysics(),
-                      itemBuilder: (context, index) => Column(
-                        children: [
-                          SizedBox(
-                            height: 70,
-                            width: 70,
-                            child: CircleAvatar(
-                                backgroundColor: Colors.grey,
-                                child: Image.asset("./assets/man.png")),
-                          ),
-                          Text(
-                            "Sam Kibigi",
-                            style: GoogleFonts.montserrat(fontSize: 12),
-                          )
-                        ],
                       ),
-                    ),
-                    SizedBox(
-                      width: 6,
-                    ),
-                    Column(
-                      children: [
-                        SizedBox(
-                          height: 70,
-                          width: 70,
-                          child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Image.asset("./assets/man.png")),
-                        ),
-                        Text(
-                          "Mussa Timbanga",
-                          style: GoogleFonts.montserrat(fontSize: 12),
-                        )
-                      ],
-                    ),
-                    SizedBox(
-                      width: 6,
-                    ),
-                    Column(
-                      children: [
-                        SizedBox(
-                          height: 70,
-                          width: 70,
-                          child: CircleAvatar(
-                              backgroundColor: Colors.grey,
-                              child: Image.asset("./assets/man.png")),
-                        ),
-                        Text(
-                          "Henry Mkuchu",
-                          style: GoogleFonts.montserrat(fontSize: 12),
-                        )
-                      ],
                     ),
                   ],
                 ),
