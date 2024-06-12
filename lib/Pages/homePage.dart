@@ -29,7 +29,7 @@ class _ExplorePageState extends State<ExplorePage> {
           child: (Column(
             children: [
               SizedBox(
-                height: 80,
+                height: 40,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 10, right: 10),
@@ -38,8 +38,8 @@ class _ExplorePageState extends State<ExplorePage> {
                   children: [
                     Text(
                       "Connections",
-                      style: GoogleFonts.spaceMono(
-                          fontSize: 30,
+                      style: GoogleFonts.dancingScript(
+                          fontSize: 40,
                           fontWeight: FontWeight.bold,
                           color: Colors.blueAccent),
                     ),
@@ -105,7 +105,7 @@ class _ExplorePageState extends State<ExplorePage> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 10,
               ),
               Container(
                 height: 350,
@@ -508,7 +508,7 @@ class _ExplorePageState extends State<ExplorePage> {
                 child: Text(
                   "People You May Know",
                   style: GoogleFonts.montserrat(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                      fontSize: 30, fontWeight: FontWeight.bold),
                 ),
               ),
               SizedBox(
