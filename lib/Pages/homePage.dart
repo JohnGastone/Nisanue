@@ -3,6 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sosho/models/suggestedFollow_model.dart';
 
 import '../models/following_model.dart';
 
@@ -16,6 +17,9 @@ class ExplorePage extends StatefulWidget {
 class _ExplorePageState extends State<ExplorePage> {
   List<FollowingModel> displayFollowing =
       List.from(FollowingList.getFollowingList);
+
+  List<SuggestedfollowModel> displaySuggested =
+      List.from(SuggestedFollowList.getSuggestedFollow);
 
   @override
   Widget build(BuildContext context) {
@@ -548,56 +552,6 @@ class _ExplorePageState extends State<ExplorePage> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Container(
-                      height: 170,
-                      width: 160,
-                      decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(15)),
-                      child: Column(
-                        children: [
-                          SizedBox(
-                            height: 10,
-                          ),
-                          CircleAvatar(
-                            child: Image.asset("./assets/man.png"),
-                          ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text(
-                            "Saidi Mboka",
-                            style: GoogleFonts.montserrat(
-                                fontSize: 17, fontWeight: FontWeight.bold),
-                          ),
-                          SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            "12k Followers",
-                            style: GoogleFonts.montserrat(
-                                fontSize: 15, fontWeight: FontWeight.w300),
-                          ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          SizedBox(
-                            height: 30,
-                            width: 60,
-                            child: FloatingActionButton(
-                              onPressed: () {},
-                              child: Text(
-                                "Follow",
-                                style: GoogleFonts.montserrat(fontSize: 13),
-                              ),
-                            ),
-                          )
-                        ],
-                      ),
-                    )
                   ],
                 ),
               ),
