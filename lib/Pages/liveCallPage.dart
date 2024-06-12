@@ -260,32 +260,20 @@ class _LiveCallPageState extends State<LiveCallPage> {
               ),
               Container(
                 width: 340,
-                height: 40,
+                height: 50,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white24),
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            child: Image.asset("./assets/man.png"),
+                    padding: const EdgeInsets.all(10.0),
+                    child: TextField(
+                      decoration: InputDecoration(
+                          suffixIcon: Icon(
+                            CupertinoIcons.chat_bubble,
+                            color: Colors.white,
                           ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                        ],
-                      ),
-                      Icon(
-                        CupertinoIcons.chat_bubble,
-                        color: Colors.white,
-                      )
-                    ],
-                  ),
-                ),
+                          border: InputBorder.none),
+                    )),
               )
             ],
           ),
