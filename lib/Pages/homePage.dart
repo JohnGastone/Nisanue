@@ -507,33 +507,36 @@ class _ExplorePageState extends State<ExplorePage> {
                   shrinkWrap: true,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      mainAxisSpacing: 12,
-                      crossAxisSpacing: 20),
+                      mainAxisSpacing: 15,
+                      crossAxisSpacing: 10),
                   itemCount: displaySuggested.length,
                   itemBuilder: (context, index) => Padding(
-                    padding:
-                        const EdgeInsets.only(left: 15, right: 10, bottom: 20),
+                    padding: const EdgeInsets.only(left: 10),
                     child: Row(
                       children: [
                         Container(
-                          height: 170,
+                          height: 190,
                           width: 160,
                           decoration: BoxDecoration(
-                              color: Colors.white24,
+                              color: const Color.fromARGB(60, 141, 138, 138),
                               borderRadius: BorderRadius.circular(15)),
                           child: Column(
                             children: [
                               SizedBox(
-                                height: 10,
+                                height: 6,
                               ),
-                              ClipOval(
-                                child: Image.asset(
-                                  displaySuggested[index].profilePhoto!,
-                                  fit: BoxFit.cover,
+                              SizedBox(
+                                height: 70,
+                                width: 70,
+                                child: ClipOval(
+                                  child: Image.asset(
+                                    displaySuggested[index].profilePhoto!,
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                               SizedBox(
-                                height: 10,
+                                height: 6,
                               ),
                               Text(
                                 displaySuggested[index].userName!,
