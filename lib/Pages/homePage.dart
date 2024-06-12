@@ -625,7 +625,7 @@ class _ExplorePageState extends State<ExplorePage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => LiveCallPage()));
+                                  builder: (context) => LiveStreamPage()));
                         },
                       ),
                       Icon(CupertinoIcons.mail),

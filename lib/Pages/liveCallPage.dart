@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sosho/Pages/homePage.dart';
 
-class LiveCallPage extends StatefulWidget {
-  const LiveCallPage({super.key});
+class LiveStreamPage extends StatefulWidget {
+  const LiveStreamPage({super.key});
 
   @override
-  State<LiveCallPage> createState() => _LiveCallPageState();
+  State<LiveStreamPage> createState() => _LiveStreamPageState();
 }
 
-class _LiveCallPageState extends State<LiveCallPage> {
+class _LiveStreamPageState extends State<LiveStreamPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
