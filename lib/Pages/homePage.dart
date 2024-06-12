@@ -67,44 +67,39 @@ class _ExplorePageState extends State<ExplorePage> {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20),
-                child: Row(
-                  children: [
-                    SizedBox(
-                      height: 150,
-                      child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        shrinkWrap: true,
-                        physics: NeverScrollableScrollPhysics(),
-                        itemCount: displayFollowing.length,
-                        itemBuilder: (context, index) => InkWell(
-                          child: Padding(
+                child: SizedBox(
+                  height: 150,
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: displayFollowing.length,
+                    itemBuilder: (context, index) => InkWell(
+                      child: Row(
+                        children: [
+                          Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SingleChildScrollView(
-                              child: Column(
-                                children: [
-                                  SizedBox(
-                                      height: 80,
-                                      width: 80,
-                                      child: ClipOval(
-                                        child: Image.asset(
-                                          displayFollowing[index].image!,
-                                          fit: BoxFit.cover,
-                                          height: double.maxFinite,
-                                          width: double.maxFinite,
-                                        ),
-                                      )),
-                                  Text(
-                                    displayFollowing[index].name!,
-                                    style: GoogleFonts.montserrat(fontSize: 12),
-                                  )
-                                ],
-                              ),
+                            child: Column(
+                              children: [
+                                SizedBox(
+                                  height: 80,
+                                  width: 80,
+                                  child: ClipOval(
+                                    child: Image.asset(
+                                      displayFollowing[index].image!,
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                                Text(
+                                  displayFollowing[index].name!,
+                                  style: GoogleFonts.montserrat(fontSize: 12),
+                                ),
+                              ],
                             ),
                           ),
-                        ),
+                        ],
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ),
               SizedBox(
