@@ -39,7 +39,9 @@ class _ExplorePageState extends State<ExplorePage> {
                     Text(
                       "Connections",
                       style: GoogleFonts.spaceMono(
-                          fontSize: 25, fontWeight: FontWeight.bold),
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueAccent),
                     ),
                     Row(
                       children: [
