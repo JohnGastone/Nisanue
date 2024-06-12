@@ -520,14 +520,17 @@ class _ExplorePageState extends State<ExplorePage> {
                             SizedBox(
                               height: 10,
                             ),
-                            CircleAvatar(
-                              child: Image.asset("./assets/man.png"),
+                            ClipOval(
+                              child: Image.asset(
+                                displaySuggested[index].profilePhoto!,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                             SizedBox(
                               height: 10,
                             ),
                             Text(
-                              "Mama Kilakshal",
+                              displaySuggested[index].userName!,
                               style: GoogleFonts.montserrat(
                                   fontSize: 17, fontWeight: FontWeight.bold),
                             ),
@@ -535,7 +538,7 @@ class _ExplorePageState extends State<ExplorePage> {
                               height: 5,
                             ),
                             Text(
-                              "64k Followers",
+                              displaySuggested[index].followersCount!,
                               style: GoogleFonts.montserrat(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                             ),
