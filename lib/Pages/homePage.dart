@@ -417,9 +417,13 @@ class _ExplorePageState extends State<ExplorePage> {
                           const EdgeInsets.only(left: 20, top: 15, bottom: 10),
                       child: Row(
                         children: [
-                          CircleAvatar(
-                            child: Image.asset("./assets/man.png"),
-                          ),
+                          ClipOval(
+                              child: Image.asset(
+                            "./assets/p3.png",
+                            fit: BoxFit.cover,
+                            height: 60,
+                            width: 60,
+                          )),
                           SizedBox(
                             width: 8,
                           ),
