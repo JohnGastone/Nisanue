@@ -260,7 +260,7 @@ class _LiveStreamPageState extends State<LiveStreamPage> {
               ),
               Container(
                 width: 340,
-                height: 50,
+                height: 60,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white24),
@@ -268,6 +268,16 @@ class _LiveStreamPageState extends State<LiveStreamPage> {
                     padding: const EdgeInsets.all(10.0),
                     child: TextField(
                       decoration: InputDecoration(
+                          prefixIcon: SizedBox(
+                            height: 50,
+                            width: 50,
+                            child: ClipOval(
+                              child: Image.asset(
+                                "./assets/p2.png",
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
                           suffixIcon: Icon(
                             CupertinoIcons.chat_bubble,
                             color: Colors.white,
