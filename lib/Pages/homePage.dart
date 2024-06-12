@@ -3,70 +3,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sosho/Pages/liveCallPage.dart';
 
 import '../models/following_model.dart';
-
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
-
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  int _selectedIndex = 0;
-
-  void _OnItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  // ignore: prefer_final_fields
-  static List<Widget> _pages = <Widget>[
-    ExplorePage(),
-    LiveCallPage(),
-  ];
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 221, 206, 206),
-        body: Stack(children: [
-          _pages[_selectedIndex],
-          Positioned(
-            bottom: 20,
-            left: 10,
-            right: 10,
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(50),
-              child: BottomNavigationBar(
-                selectedLabelStyle: GoogleFonts.spaceMono(
-                    fontSize: 15, fontWeight: FontWeight.bold),
-                unselectedLabelStyle: GoogleFonts.spaceMono(
-                    fontSize: 15, fontWeight: FontWeight.bold),
-                backgroundColor: Color.fromARGB(60, 79, 114, 158),
-                items: const <BottomNavigationBarItem>[
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.explore),
-                    label: '',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(CupertinoIcons.videocam),
-                    label: '',
-                  ),
-                ],
-                currentIndex: _selectedIndex,
-                selectedItemColor: Colors.green,
-                onTap: _OnItemTapped,
-                elevation: 10,
-              ),
-            ),
-          )
-        ]));
-  }
-}
 
 class ExplorePage extends StatefulWidget {
   const ExplorePage({super.key});
@@ -137,24 +75,26 @@ class _ExplorePageState extends State<ExplorePage> {
                         itemBuilder: (context, index) => InkWell(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: [
-                                SizedBox(
-                                    height: 80,
-                                    width: 80,
-                                    child: ClipOval(
-                                      child: Image.asset(
-                                        displayFollowing[index].image!,
-                                        fit: BoxFit.cover,
-                                        height: double.maxFinite,
-                                        width: double.maxFinite,
-                                      ),
-                                    )),
-                                Text(
-                                  displayFollowing[index].name!,
-                                  style: GoogleFonts.montserrat(fontSize: 12),
-                                )
-                              ],
+                            child: SingleChildScrollView(
+                              child: Column(
+                                children: [
+                                  SizedBox(
+                                      height: 80,
+                                      width: 80,
+                                      child: ClipOval(
+                                        child: Image.asset(
+                                          displayFollowing[index].image!,
+                                          fit: BoxFit.cover,
+                                          height: double.maxFinite,
+                                          width: double.maxFinite,
+                                        ),
+                                      )),
+                                  Text(
+                                    displayFollowing[index].name!,
+                                    style: GoogleFonts.montserrat(fontSize: 12),
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                         ),

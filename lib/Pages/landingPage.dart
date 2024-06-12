@@ -125,7 +125,7 @@ class _LandingpageState extends State<Landingpage> {
                 ),
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => ExplorePage()));
                 },
               ),
               SizedBox(
