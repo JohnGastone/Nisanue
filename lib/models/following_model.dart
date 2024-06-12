@@ -11,14 +11,32 @@ class FollowingModel {
 class FollowingList {
   static List<FollowingModel> getFollowingList = [
     FollowingModel(
-      './assets/pp.png',
+      './assets/p1.png',
       'Mwantumu Cute',
     ),
     FollowingModel(
-      './assets/pp1.png',
+      './assets/p1.png',
       'Mwantumu Cute',
     ),
-    FollowingModel('./assets/pp2.png', 'Mwantumu Cute')
+    FollowingModel('./assets/p1.png', 'Mwantumu Cute'),
+    FollowingModel(
+      './assets/p1.png',
+      'Mwantumu Cute',
+    ),
+    FollowingModel(
+      './assets/p1.png',
+      'Mwantumu Cute',
+    ),
+    FollowingModel('./assets/p1.png', 'Mwantumu Cute'),
+    FollowingModel(
+      './assets/p1.png',
+      'Mwantumu Cute',
+    ),
+    FollowingModel(
+      './assets/p1.png',
+      'Mwantumu Cute',
+    ),
+    FollowingModel('./assets/p1.png', 'Mwantumu Cute')
   ];
 
   static List<FollowingModel> displayFollowingList =

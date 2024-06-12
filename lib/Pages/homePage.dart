@@ -135,22 +135,27 @@ class _ExplorePageState extends State<ExplorePage> {
                         physics: NeverScrollableScrollPhysics(),
                         itemCount: displayFollowing.length,
                         itemBuilder: (context, index) => InkWell(
-                          child: Column(
-                            children: [
-                              SizedBox(
-                                height: 80,
-                                width: 80,
-                                child: CircleAvatar(
-                                    backgroundColor:
-                                        const Color.fromARGB(60, 237, 233, 233),
-                                    child: Image.asset(
-                                        displayFollowing[index].image!)),
-                              ),
-                              Text(
-                                displayFollowing[index].name!,
-                                style: GoogleFonts.montserrat(fontSize: 12),
-                              )
-                            ],
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: [
+                                SizedBox(
+                                    height: 80,
+                                    width: 80,
+                                    child: ClipOval(
+                                      child: Image.asset(
+                                        displayFollowing[index].image!,
+                                        fit: BoxFit.cover,
+                                        height: double.maxFinite,
+                                        width: double.maxFinite,
+                                      ),
+                                    )),
+                                Text(
+                                  displayFollowing[index].name!,
+                                  style: GoogleFonts.montserrat(fontSize: 12),
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ),
