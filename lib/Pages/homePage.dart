@@ -603,12 +603,12 @@ class _ExplorePageState extends State<ExplorePage> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(bottom: 30),
+          padding: const EdgeInsets.only(bottom: 20),
           child: Align(
             alignment: Alignment.bottomCenter,
             child: SizedBox(
               width: 350,
-              height: 45,
+              height: 60,
               child: FloatingActionButton(
                 onPressed: () {},
                 child: Padding(
@@ -619,7 +619,6 @@ class _ExplorePageState extends State<ExplorePage> {
                       Icon(CupertinoIcons.home),
                       Icon(CupertinoIcons.video_camera),
                       Icon(CupertinoIcons.mail),
-                      Icon(CupertinoIcons.person_circle),
                       Icon(CupertinoIcons.person),
                     ],
                   ),
