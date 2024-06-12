@@ -628,7 +628,6 @@ class _ExplorePageState extends State<ExplorePage> {
                                   builder: (context) => LiveStreamPage()));
                         },
                       ),
-                      Icon(CupertinoIcons.mail),
                       Icon(CupertinoIcons.person),
                     ],
                   ),
