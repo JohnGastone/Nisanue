@@ -148,9 +148,13 @@ class _LiveCallPageState extends State<LiveCallPage> {
                 padding: const EdgeInsets.only(left: 30),
                 child: Row(
                   children: [
-                    CircleAvatar(
-                      child: Image.asset("./assets/man.png"),
-                    ),
+                    ClipOval(
+                        child: Image.asset(
+                      "./assets/mo.jpeg",
+                      height: 50,
+                      width: 50,
+                      fit: BoxFit.cover,
+                    )),
                     SizedBox(
                       width: 7,
                     ),
@@ -240,13 +244,13 @@ class _LiveCallPageState extends State<LiveCallPage> {
                     SizedBox(
                       width: 50,
                       height: 50,
-                      child: CircleAvatar(
-                          backgroundColor: Colors.white24,
+                      child: ClipOval(
                           child: Image.asset(
-                            "./assets/p1.png",
-                            height: 50,
-                            width: 50,
-                          )),
+                        "./assets/p1.png",
+                        height: 50,
+                        width: 50,
+                        fit: BoxFit.cover,
+                      )),
                     )
                   ],
                 ),
