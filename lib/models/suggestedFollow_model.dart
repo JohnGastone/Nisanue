@@ -15,27 +15,37 @@ class SuggestedFollowList {
     ),
     SuggestedfollowModel(
       profilePhoto: 'assets/p1.png',
-      userName: 'Mama Kilakshal',
+      userName: 'Said Mboka',
       followersCount: '64 k',
     ),
     SuggestedfollowModel(
       profilePhoto: 'assets/p1.png',
-      userName: 'Mama Kilakshal',
+      userName: 'Omary Juma',
       followersCount: '64 k',
     ),
     SuggestedfollowModel(
       profilePhoto: 'assets/p1.png',
-      userName: 'Mama Kilakshal',
+      userName: 'Njofu Jamal',
       followersCount: '64 k',
     ),
     SuggestedfollowModel(
       profilePhoto: 'assets/p1.png',
-      userName: 'Mama Kilakshal',
+      userName: 'Jose Mkomboti',
       followersCount: '64 k',
     ),
     SuggestedfollowModel(
       profilePhoto: 'assets/p1.png',
-      userName: 'Mama Kilakshal',
+      userName: 'Kitufe Kiande',
+      followersCount: '64 k',
+    ),
+    SuggestedfollowModel(
+      profilePhoto: 'assets/p1.png',
+      userName: 'Kiboga Mrembo',
+      followersCount: '64 k',
+    ),
+    SuggestedfollowModel(
+      profilePhoto: 'assets/p1.png',
+      userName: 'Naunai Malale',
       followersCount: '64 k',
     ),
   ];
