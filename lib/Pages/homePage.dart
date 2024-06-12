@@ -501,65 +501,72 @@ class _ExplorePageState extends State<ExplorePage> {
               SizedBox(
                 height: 20,
               ),
-              GridView.builder(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2, mainAxisSpacing: 12),
-                itemBuilder: (context, index) => Padding(
-                  padding:
-                      const EdgeInsets.only(left: 15, right: 10, bottom: 20),
-                  child: Row(
-                    children: [
-                      Container(
-                        height: 170,
-                        width: 160,
-                        decoration: BoxDecoration(
-                            color: Colors.white24,
-                            borderRadius: BorderRadius.circular(15)),
-                        child: Column(
-                          children: [
-                            SizedBox(
-                              height: 10,
-                            ),
-                            ClipOval(
-                              child: Image.asset(
-                                displaySuggested[index].profilePhoto!,
-                                fit: BoxFit.cover,
+              SizedBox(
+                child: GridView.builder(
+                  physics: NeverScrollableScrollPhysics(),
+                  shrinkWrap: true,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      mainAxisSpacing: 12,
+                      crossAxisSpacing: 20),
+                  itemCount: displaySuggested.length,
+                  itemBuilder: (context, index) => Padding(
+                    padding:
+                        const EdgeInsets.only(left: 15, right: 10, bottom: 20),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 170,
+                          width: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white24,
+                              borderRadius: BorderRadius.circular(15)),
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                height: 10,
                               ),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Text(
-                              displaySuggested[index].userName!,
-                              style: GoogleFonts.montserrat(
-                                  fontSize: 17, fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(
-                              height: 5,
-                            ),
-                            Text(
-                              displaySuggested[index].followersCount!,
-                              style: GoogleFonts.montserrat(
-                                  fontSize: 15, fontWeight: FontWeight.w300),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            SizedBox(
-                              height: 30,
-                              width: 60,
-                              child: FloatingActionButton(
-                                onPressed: () {},
-                                child: Text(
-                                  "Follow",
-                                  style: GoogleFonts.montserrat(fontSize: 13),
+                              ClipOval(
+                                child: Image.asset(
+                                  displaySuggested[index].profilePhoto!,
+                                  fit: BoxFit.cover,
                                 ),
                               ),
-                            )
-                          ],
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                displaySuggested[index].userName!,
+                                style: GoogleFonts.montserrat(
+                                    fontSize: 17, fontWeight: FontWeight.bold),
+                              ),
+                              SizedBox(
+                                height: 5,
+                              ),
+                              Text(
+                                displaySuggested[index].followersCount!,
+                                style: GoogleFonts.montserrat(
+                                    fontSize: 15, fontWeight: FontWeight.w300),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              SizedBox(
+                                height: 30,
+                                width: 60,
+                                child: FloatingActionButton(
+                                  onPressed: () {},
+                                  child: Text(
+                                    "Follow",
+                                    style: GoogleFonts.montserrat(fontSize: 13),
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               ),
