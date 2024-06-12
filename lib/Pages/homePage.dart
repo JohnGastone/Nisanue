@@ -3,6 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sosho/Pages/liveCallPage.dart';
 import 'package:sosho/models/suggestedFollow_model.dart';
 
 import '../models/following_model.dart';
@@ -610,6 +611,7 @@ class _ExplorePageState extends State<ExplorePage> {
               width: 350,
               height: 60,
               child: FloatingActionButton(
+                backgroundColor: Colors.white24,
                 onPressed: () {},
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -617,7 +619,15 @@ class _ExplorePageState extends State<ExplorePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Icon(CupertinoIcons.home),
-                      Icon(CupertinoIcons.video_camera),
+                      InkWell(
+                        child: Icon(CupertinoIcons.video_camera),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => LiveCallPage()));
+                        },
+                      ),
                       Icon(CupertinoIcons.mail),
                       Icon(CupertinoIcons.person),
                     ],
